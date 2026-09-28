@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#10261e" />
+  <meta name="description" content="Arav Soni — student founder, builder, and advocate for education and opportunity in Dallas." />
+  <title>Arav Soni — Portfolio</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2310261e'/%3E%3Ccircle cx='32' cy='32' r='23' fill='none' stroke='%23d7bf78' stroke-width='2'/%3E%3Ctext x='32' y='43' text-anchor='middle' font-family='Georgia' font-size='33' fill='%23f3ecd9'%3EA%3C/text%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="site.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="shell">
+    <header class="topbar">
+      <a class="wordmark" href="#home" aria-label="Go home"><span class="mark" aria-hidden="true">✳</span><span data-bind="shortName">ARAV SONI</span></a>
+      <span class="topbar-note">IDEAS INTO ACTION <span class="blink">_</span></span>
+      <a class="topbar-contact" href="#contact">SAY HELLO <span aria-hidden="true">↗</span></a>
+    </header>
+
+    <main>
+      <section class="hero" id="home" aria-labelledby="hero-title">
+        <div class="hero-topline"><span>ARAV SONI / DALLAS, TEXAS</span><span id="clock">--:--:--</span></div>
+        <div class="currency-seal" aria-hidden="true"><span>AS</span></div>
+        <h1 id="hero-title"><span data-bind="firstName">ARAV</span><br><em data-bind="lastName">SONI</em><span class="title-period">.</span></h1>
+        <div class="hero-bottomline"><p data-bind="intro">Building at the intersection of business, technology, and service.</p><span>SCROLL TO EXPLORE <span aria-hidden="true">↓</span></span></div>
+
+        <div class="playground" id="playground" aria-label="Interactive navigation playground">
+          <div class="playground-grid" aria-hidden="true"></div>
+          <div class="playground-caption">EXPLORE THE PORTFOLIO <span class="desktop-hint">/ DRAG THE COIN INTO A DESTINATION</span></div>
+          <div class="orb-zone">
+            <div class="orbit orbit-one" aria-hidden="true"></div><div class="orbit orbit-two" aria-hidden="true"></div>
+            <button class="portal portal-about" data-panel="about" aria-label="Open About"><span class="portal-icon">↗</span><span>ABOUT</span></button>
+            <button class="portal portal-work" data-panel="work" aria-label="Open Work"><span class="portal-icon">◫</span><span>WORK</span></button>
+            <button class="portal portal-honors" data-panel="honors" aria-label="Open Awards and Certificates"><span class="portal-icon">✦</span><span>AWARDS</span></button>
+            <button class="portal portal-notes" data-panel="notes" aria-label="Open Writing"><span class="portal-icon">✳</span><span>WRITING</span></button>
+            <button class="portal portal-quotes" data-panel="quotes" aria-label="Open Quotes"><span class="portal-icon">“</span><span>QUOTES</span></button>
+            <button class="portal portal-contact" data-panel="contact" aria-label="Open Contact"><span class="portal-icon">✉</span><span>CONTACT</span></button>
+            <div class="orb-home" aria-hidden="true"></div>
+            <button id="orb" class="orb" type="button" aria-label="Drag this coin to a destination, or press Enter to open About"><span class="coin-face">AS</span></button>
+            <span class="orb-instruction" aria-hidden="true">DRAG THE COIN</span>
+          </div>
+          <div class="playground-footer"><span>BUILT WITH CURIOSITY</span><span>↖ TAKE YOUR TIME ↗</span></div>
+        </div>
+      </section>
+
+      <section class="content" aria-label="Portfolio content">
+        <div class="section-heading"><span>THE LEDGER</span><span>01 / 06</span></div>
+        <div class="content-grid">
+          <div class="content-intro"><h2>Built to<br><em>matter.</em></h2><p>From community work to financial education, here’s a closer look at what I’m doing and learning.</p></div>
+          <div class="card-grid">
+            <button class="feature-card about-card" data-panel="about"><span class="card-index">01 / INTRODUCTION</span><span class="card-art" aria-hidden="true">✳</span><span class="card-bottom"><strong>About me</strong><span>↗</span></span></button>
+            <button class="feature-card work-card" data-panel="work"><span class="card-index">02 / INITIATIVES</span><span class="card-art" aria-hidden="true">◫</span><span class="card-bottom"><strong>Work & experience</strong><span>↗</span></span></button>
+            <button class="feature-card honors-card" data-panel="honors"><span class="card-index">03 / RECOGNITION</span><span class="card-art" aria-hidden="true">✦</span><span class="card-bottom"><strong>Awards & certificates</strong><span>↗</span></span></button>
+            <button class="feature-card notes-card" data-panel="notes"><span class="card-index">04 / IDEAS</span><span class="card-art" aria-hidden="true">✎</span><span class="card-bottom"><strong>Writing & notes</strong><span>↗</span></span></button>
+            <button class="feature-card contact-card" data-panel="contact"><span class="card-index">05 / CONNECTION</span><span class="card-art" aria-hidden="true">☺</span><span class="card-bottom"><strong>Get in touch</strong><span>↗</span></span></button>
+            <button class="feature-card quotes-card" data-panel="quotes"><span class="card-index">06 / QUOTES</span><span class="card-art" aria-hidden="true">“</span><span class="card-bottom"><strong>Words worth keeping</strong><span>↗</span></span></button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer><span data-bind="footerName">ARAV SONI © 2026</span><span>DALLAS, TEXAS · IDEAS INTO ACTION</span><a href="#home">BACK TO TOP ↑</a></footer>
+  </div>
+
+  <div class="panel-backdrop" id="backdrop" hidden></div>
+  <aside class="detail-panel" id="detailPanel" aria-label="Portfolio detail" aria-hidden="true" inert>
+    <div class="panel-head"><span id="panel-index">01 / 06</span><button class="close-button" id="closePanel" aria-label="Close panel">CLOSE <span aria-hidden="true">×</span></button></div>
+    <div id="panelContent" class="panel-content"></div>
+    <div class="panel-foot"><span>AN INTERACTIVE CORNER OF THE WEB</span><span>✳</span></div>
+  </aside>
+</body>
+</html>
